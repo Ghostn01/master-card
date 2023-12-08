@@ -1,0 +1,33 @@
+display: block;
+  width: 100%;
+  border: 1px solid #6b7280;
+  padding: 18px 20px;
+  transition: outline 200ms ease, box-shadow 200ms ease;
+  border-radius: 12px;
+  outline: none;
+  background-color: #fff;
+  color: #0d0c22;
+  font-size: 16px;
+}
+
+input:focus,
+select:focus {
+  border: 1px solid #000;   
+  outline: 4px solid rgba(0,0,0,.1);
+}
+
+select {
+  padding: 0 20px;
+}
+
+.filed__group {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+}
+
+.filed__date {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
